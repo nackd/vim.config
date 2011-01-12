@@ -21,3 +21,6 @@ filetype plugin on    " Enable filetype-specific plugins
 
 " FuzzyFinder
 nnoremap <c-f> :FufCoverageFile<cr>
+
+" bufexplorer
+nnoremap <c-b> :BufExplorer<cr>
