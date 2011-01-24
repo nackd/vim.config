@@ -6,6 +6,11 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set number
+set list " Show hidden characters
+set listchars=tab:▷⋅,trail:⋅,nbsp:⋅ " Configure list mode
+set cursorline " Highlight current line
+set colorcolumn=80,120 " Highlight these columns
+set mouse=a " Enable mouse support
 colorscheme vibrantink
 
 " Pathogen
@@ -24,3 +29,6 @@ nnoremap <c-f> :FufCoverageFile<cr>
 
 " bufexplorer
 nnoremap <c-b> :BufExplorer<cr>
+
+" NERDTree
+nnoremap <c-n> :NERDTreeToggle<cr>
