@@ -11,6 +11,7 @@ set listchars=tab:▷⋅,trail:⋅,nbsp:⋅ " Configure list mode
 set cursorline " Highlight current line
 set colorcolumn=80,120 " Highlight these columns
 set mouse=a " Enable mouse support
+set hlsearch " Highlight search matches
 colorscheme vibrantink
 
 " Pathogen
