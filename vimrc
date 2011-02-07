@@ -6,12 +6,13 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set number
-set list " Show hidden characters
+set list                            " Show hidden characters
 set listchars=tab:▷⋅,trail:⋅,nbsp:⋅ " Configure list mode
-set cursorline " Highlight current line
-set colorcolumn=80,120 " Highlight these columns
-set mouse=a " Enable mouse support
-set hlsearch " Highlight search matches
+set cursorline                      " Highlight current line
+set colorcolumn=80,120              " Highlight these columns
+set mouse=a                         " Enable mouse support
+set hlsearch                        " Highlight search matches
+set hidden                          " Allow switch from a buffer without saving
 colorscheme vibrantink
 
 " Pathogen
