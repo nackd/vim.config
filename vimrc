@@ -34,3 +34,8 @@ nnoremap <c-b> :BufExplorer<cr>
 
 " NERDTree
 nnoremap <c-n> :NERDTreeToggle<cr>
+
+" Taglist
+nnoremap <c-t> :TlistToggle<cr>
+let Tlist_Compact_Format=1 " Less empty lines
+let Tlist_Show_One_File=1  " Show tags for current buffer only
