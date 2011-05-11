@@ -37,5 +37,7 @@ nnoremap <c-n> :NERDTreeToggle<cr>
 
 " Taglist
 nnoremap <c-t> :TlistToggle<cr>
-let Tlist_Compact_Format=1 " Less empty lines
-let Tlist_Show_One_File=1  " Show tags for current buffer only
+let Tlist_Compact_Format=1   " Less empty lines
+let Tlist_Show_One_File=1    " Show tags for current buffer only
+let Tlist_Sort_Type="name"   " Sort tags
+let Tlist_Use_Right_Window=1 " Tag list on the right side
