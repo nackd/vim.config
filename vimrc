@@ -41,3 +41,9 @@ let Tlist_Compact_Format=1   " Less empty lines
 let Tlist_Show_One_File=1    " Show tags for current buffer only
 let Tlist_Sort_Type="name"   " Sort tags
 let Tlist_Use_Right_Window=1 " Tag list on the right side
+
+" Ctrl+<movement> to move around windows instead of Ctrl+w <movement>
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
